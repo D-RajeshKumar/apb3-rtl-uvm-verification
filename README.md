@@ -147,13 +147,15 @@ PENABLE |-> PSELX
 | UVM_WARNING | 0 |
 | UVM_ERROR | 0 |
 | UVM_FATAL | 0 |
+
 ```
 [apb_monitor] : 96 transactions captured
 [apb_scoreboard] : 193 scoreboard events (writes + read checks)
 
-
+```
 - **96 APB transfers** verified across directed, corner-case, and constrained/
   unconstrained random sequences
+
 - **Zero scoreboard mismatches** — every read-after-write returned correct data
 - **Zero PSLVERR mismatches** — error response matched the independently 
   computed expected-error condition on every transaction
