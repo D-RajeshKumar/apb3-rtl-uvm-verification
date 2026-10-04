@@ -23,41 +23,40 @@ protocol checks.
 ---
 
 ## Repository Structure
+
 apb3-rtl-uvm-verification/
 ├── rtl/
-│ ├── apb_master.v # APB3 master: FSM, address/data latching, response capture
-│ └── apb_slave.v # APB3 slave: memory array, wait-state logic, error detection
+│   ├── apb_master.v
+│   └── apb_slave.v
 │
 ├── tb/
-│ ├── apb_if.sv # Interface with driver/monitor clocking blocks
-│ ├── apb_txn.sv # Sequence item (transaction class)
-│ ├── apb_sequencer.sv
-│ ├── sequences/
-│ │ ├── apb_base_sequence.sv
-│ │ ├── corner_cases.sv
-│ │ ├── random_test.sv
-│ │ ├── random_without_cons.sv
-│ │ └── random_reads.sv
-│ ├── apb_driver.sv
-│ ├── apb_monitor.sv
-│ ├── apb_cov_collector.sv
-│ ├── apb_scoreboard.sv
-│ ├── apb_agent.sv
-│ ├── apb_env.sv
-│ ├── apb_test.sv
-│ └── tb_top.sv # DUT instantiation, SVA properties, run_test()
+│   ├── apb_if.sv
+│   ├── apb_txn.sv
+│   ├── apb_sequencer.sv
+│   ├── sequences/
+│   │   ├── apb_base_sequence.sv
+│   │   ├── corner_cases.sv
+│   │   ├── random_test.sv
+│   │   ├── random_without_cons.sv
+│   │   └── random_reads.sv
+│   ├── apb_driver.sv
+│   ├── apb_monitor.sv
+│   ├── apb_cov_collector.sv
+│   ├── apb_scoreboard.sv
+│   ├── apb_agent.sv
+│   ├── apb_env.sv
+│   ├── apb_test.sv
+│   └── tb_top.sv
 │
 └── docs/
-├── logs/
-│ ├── full_regression_log.txt
-│ └── coverage_report.txt
-└── waveforms/
-├── write_read_match.png
-├── wait_state_2cycle.png
-├── pslverr_error_response.png
-└── assertion_clean_pass.png
-
-
+    ├── logs/
+    │   ├── full_regression_log.txt
+    │   └── coverage_report.txt
+    └── waveforms/
+        ├── write_read_match.png
+        ├── wait_state_2cycle.png
+        ├── pslverr_error_response.png
+        └── assertion_clean_pass.png
 ---
 
 ## RTL Design
