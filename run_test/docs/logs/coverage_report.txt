@@ -1,0 +1,8 @@
+UVM_INFO testbench.sv(382) @ 3115: uvm_test_top.envh.acc [apb_cov_collector] total coverage 100.00%
+UVM_INFO testbench.sv(383) @ 3115: uvm_test_top.envh.acc [apb_cov_collector] PWRITE coverage 100.00%
+UVM_INFO testbench.sv(384) @ 3115: uvm_test_top.envh.acc [apb_cov_collector] PWDATA coverage 100.00%
+UVM_INFO testbench.sv(385) @ 3115: uvm_test_top.envh.acc [apb_cov_collector] PADDR coverage 100.00%
+UVM_INFO testbench.sv(386) @ 3115: uvm_test_top.envh.acc [apb_cov_collector] CROSS WAIT coverage 100.00%
+UVM_INFO testbench.sv(387) @ 3115: uvm_test_top.envh.acc [apb_cov_collector] CROSS ERROR coverage 100.00%
+  
+UVM_INFO testbench.sv(573) @ 3115: uvm_test_top.envh.sbh [apb_scoreboard] TOTAL TEST CASES=50 | PASS=50 | FAIL=0
