@@ -148,20 +148,6 @@ PENABLE |-> PSELX
 | UVM_ERROR | 0 |
 | UVM_FATAL | 0 |
 ```
-
-Tables render reliably regardless of paste behavior since each row is explicitly delimited by `|` and newlines between rows are far less likely to collapse than freeform text inside a fence.
-
-## Alternative — If You Still Want the Code-Block Look
-
-Type it in manually, one line at a time, pressing Enter yourself after each:
-
-```
-```
-UVM_INFO    : 298
-UVM_WARNING : 0
-UVM_ERROR   : 0
-UVM_FATAL   : 0
-```
 [apb_monitor] : 96 transactions captured
 [apb_scoreboard] : 193 scoreboard events (writes + read checks)
 
