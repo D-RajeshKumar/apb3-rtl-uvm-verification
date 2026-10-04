@@ -1,4 +1,4 @@
-UVM_INFO @ 0: reporter [RNTST] Running test apb_test...
+UVM_INFO @ 0: reporter [RNTST] Running test apb_test..
 UVM_INFO testbench.sv(448) @ 45: uvm_test_top.envh.agh.monh [apb_monitor] TRANSFER=1|PADDR=2|WDATA=12345678|PRDATA=0|prdata_out=0|PSLVERR_out=0|READY=1
 UVM_INFO testbench.sv(534) @ 45: uvm_test_top.envh.sbh [apb_scoreboard] PSLVERR MATCHED WITH EXPECTED ERROR
 UVM_INFO testbench.sv(545) @ 45: uvm_test_top.envh.sbh [apb_scoreboard] [SB] WRITE addr=2 data=12345678
