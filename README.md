@@ -174,10 +174,10 @@ for the final coverage summary.
 
 | | |
 |---|---|
-| ![write/read match](docs/waveforms/write_read_match.png) | Write-then-read to the same address, confirming data integrity |
-| ![wait-state](docs/waveforms/wait_state_2cycle.png) | `wait_cnt` counting 2→1→0, `PREADY` correctly delayed for a wait-state address |
-| ![PSLVERR](docs/waveforms/pslverr_error_response.png) | Out-of-range address correctly triggering `PSLVERR` |
-| ![assertions](docs/waveforms/assertion_clean_pass.png) | Final UVM report: zero errors across the full regression |
+| ![write/read match](docs/waveforms/write_read_match.PNG) | Write-then-read to the same address, confirming data integrity |
+| ![wait-state](docs/waveforms/wait_state_2cycle.PNG) | `wait_cnt` counting 2→1→0, `PREADY` correctly delayed for a wait-state address |
+| ![PSLVERR](docs/waveforms/pslverr_error_response.PNG) | Out-of-range address correctly triggering `PSLVERR` |
+| ![assertions](docs/waveforms/assertion_clean_pass.PNG) | Final UVM report: zero errors across the full regression |
 
 ---
 
